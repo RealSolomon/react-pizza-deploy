@@ -18,7 +18,6 @@ Runs the app server.<br />
 Open [http://localhost:3001/pizzas](http://localhost:3001) to view it in the browser.<br />
 Resources
   http://localhost:3001/pizzas
-
 Home
   http://localhost:3001
 
