@@ -10,7 +10,6 @@
     "class-names": "^1.0.0",
     "classnames": "^2.2.6",
     "cors": "^2.8.5",
-    "firebase": "^7.19.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -23,11 +22,12 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "CI= react-scripts build",
-    "test": "react-scripts test",
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
     "eject": "react-scripts eject",
-    "server": "npx json-server --watch public/db.json --port=3001"
+    "server": "node server.js",
+    "json-server": "npx json-server --watch public/db.json --port=3001"
   },
   "eslintConfig": {
     "extends": "react-app"
