@@ -312,3 +312,86 @@ body {
     }
   }
 }
+
+@media (max-width: 1230px) {
+  .categories {
+    ul {
+      li {
+        padding: 8px 22px;
+        margin-right: 7px;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .content__top {
+    display: block;
+
+    .sort {
+      margin: 50px 300px;
+    }
+  }
+}
+
+@media (max-width: 835px) {
+  .categories {
+    ul {
+      li {
+        padding: 5px 15px;
+        margin-right: 4px;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+@media (max-width: 770px) {
+  .content__top .sort {
+    margin: 45px 160px;
+  }
+  .content__items {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 720px) {
+  .categories {
+    ul {
+      display: block;
+      li {
+        padding: 10px 10px;
+        margin-right: 2px;
+        font-weight: lighter;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+    }
+  }
+  .content__items {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 685px) {
+  .button--cart {
+    padding: 10px 35px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    background-color: #f7f7f7;
+  }
+  .header .container {
+    display: block;
+  }
+  .button--cart {
+    padding: 15px 35px;
+    margin-top: 35px;
+  }
+  .content__top .sort {
+    margin: 30px;
+  }
+}
